@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>Add a Movie</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+
+    <body>
+
+    <!--create a form with action “addMovie” and POST method. -->
+    <!--The form should have fields for the movie title, maturity rating, and genre. -->
+    <!--It should also have a submit button. Include a link to the home page, -->
+    <!--and provide a link to this page from the home page.-->
+
+    <a href="/">Home</a>
+
+    <form action="addMovie" method="POST">
+        <p>Movie Title: <input type="text" name="movieTitle" /> </p>
+        <p>Maturity Rating: <input type="text" name="maturityRating"/> </p>
+        <p>Genre: <input type="text" name="genre"/> </p>
+
+        <input type="submit" value="Submit" />
+    </form>
+
+    </body>
+</html>
